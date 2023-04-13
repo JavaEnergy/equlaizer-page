@@ -27,11 +27,11 @@ header {
   margin-bottom: 168px;
 }
 .bg-logo {
-  background-image: url(./assets/bg-pattern-2.svg);
   max-width: 375px;
   background: #191826;
 }
 .img-box {
+  width: 100%;
   display: flex;
   justify-content: center;
   background: #191826;
@@ -169,13 +169,14 @@ footer {
     width: 270.21px;
     position: absolute;
     top: -138px;
-    left: 64px;
+    transform: translateX(-90%);
   }
   .orange-box {
     position: absolute;
     padding: 48px 37px;
     top: 96px;
     max-width: 400px;
+    transform: translateX(60%);
   }
   footer {
     margin: 182px 39px 85px 33px;
@@ -194,7 +195,7 @@ footer {
     cursor: pointer;
   }
   .fb:hover {
-    fill: #fa7453;
+    fill: #fa7453 !important ;
     cursor: pointer;
   }
 }
@@ -223,17 +224,16 @@ footer {
   .app-img {
     position: absolute;
     top: -194px;
-    left: 102px;
+    transform: translateX(-90%);
   }
   .orange-box {
     position: absolute;
     padding: 48px 37px;
-    top: 90px;
+    top: 200px;
     max-width: 400px;
   }
   footer {
     align-items: center;
-    gap: 360px;
   }
   .last-box {
     gap: 140px;
